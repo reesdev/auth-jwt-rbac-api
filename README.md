@@ -57,7 +57,7 @@ Resource utama:
 ### Relasi
 
 Tidak ada relasi antar tabel.  
-Fokus project ini adalah pada authentication dan authorization, bukan kompleksitas relasi database.
+Fokus project ini adalah pada authentication dan authorization.
 
 ---
 
@@ -104,7 +104,7 @@ Request → Route → Middleware → Controller → Service → Database → Res
 
 ## Analogi JWT
 
-JWT seperti tiket masuk:
+saya menganalogikan JWT itu seperti tiket masuk:
 
 * Saat login, user mendapatkan token (tiket)
 * Saat akses endpoint, server hanya memverifikasi token
